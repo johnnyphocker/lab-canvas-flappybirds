@@ -1,19 +1,28 @@
-body {
-  text-align: center;
-}
-
-body h1 {
-  font-size: 30px;
-  text-transform: uppercase;
-}
-
-body button {
-  font-size: 20px;
-  background-color: black;
-  color: #fff;
+#start {
+  background-color: green;
+  color: white;
   padding: 10px 20px;
-  border: 0;
-  box-shadow: 0;
-  border-radius: 5px;
-  margin-bottom: 20px;
+  border: none;
+  margin: 20px 10px;
+}
+
+#start:hover {
+  background-color: darkgreen;
+}
+
+#pause {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin: 20px 10px;
+}
+
+#pause:hover {
+  background-color: darkred;
+}
+
+* {
+  font-smooth: never;
+  -webkit-font-smoothing: none;
 }
